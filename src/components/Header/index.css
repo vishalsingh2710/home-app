@@ -1,0 +1,57 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.1px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.header .menu .nav-menu-item {
+  color: #1d2939;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+.header .menu button {
+  border-radius: 4px;
+  background: #1570ef;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+}
+.header .menu button a {
+  text-decoration: none;
+}
+.header .menu button a span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+li.nav-menu-item-products {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-menu-item-products span svg {
+  margin-top: 5px;
+}
