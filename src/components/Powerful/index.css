@@ -1,0 +1,28 @@
+.powerful-main-container{
+   max-width: 1440px;
+   padding: 0 140px;
+   padding-top: 96px;
+   padding-bottom: 32px;
+}
+.powerful-main-container h3{
+    color: #101828;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.powerful-main-container p{
+    color: #475467;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}

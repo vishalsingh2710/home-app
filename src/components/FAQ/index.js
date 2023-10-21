@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./index.css";
-import MyImage from "../assests/bulb-image.png.png";
+import MyImage from "../assests/bulb-image.png";
 
 function SectionWithAccordions() {
   const accordionData = [
@@ -10,16 +10,29 @@ function SectionWithAccordions() {
         "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "Question 2",
-      answer: "Answer to Question 2 goes here.",
+      question: "Can I change my plan later?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "Question 3",
-      answer: "Answer to Question 3 goes here.",
+      question: "What is your cancellation policy?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
     {
-      question: "Question 4",
-      answer: "Answer to Question 4 goes here.",
+      question: "Can other info be added to an invoice?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "How does billing work?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+    },
+    {
+      question: "How do I change my account email?",
+      answer:
+        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
     },
   ];
 
@@ -42,17 +55,18 @@ function SectionWithAccordions() {
       <div className="accordian-main-section">
         <div className="left-container">
           {accordionData.map((item, index) => (
-            <div key={index}>
-              <div className="button-svg-container">
-                <div className="button-container">
-                  <button
-                    className="accordion-button"
-                    onClick={() => toggleAccordion(index)}
-                  >
-                    {item.question}
-                  </button>
-                </div>
-                <div className="svg-container">
+            <div className="border-line" key={index}>
+              <div
+                className={`button-container ${
+                  openAccordion === index ? "active" : ""
+                }`}
+              >
+                <div
+                  className="accordion-button"
+                  onClick={() => toggleAccordion(index)}
+                >
+                  <p>{item.question}</p>
+
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -81,7 +95,7 @@ function SectionWithAccordions() {
         </div>
         <div className="right-container">
           <div className="image-container">
-            <img src={MyImage} className="image-tag" alt="My Image" />
+            <img src={MyImage} className="image-tag" alt="{My Image}" />
           </div>
         </div>
       </div>

@@ -5,18 +5,7 @@
 .banner-container {
 
 }
-.rectangle {
-  width: 1440px;
-  height: 865px;
-  /* position: absolute; */
-  background: linear-gradient(
-      90deg,
-      rgba(96, 37, 245, 0.92) 0%,
-      rgba(255, 85, 85, 0.92) 100%
-    ),
-    url("C:\Users\office\Downloads\Rectangle 1.png"),
-    lightgray 50% / cover no-repeat;
-}
+
 
 .content {
   display: flex;
