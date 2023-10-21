@@ -1,0 +1,97 @@
+.mgmt-main-container {
+  background-image: url("../assests/mgmt-image.png");
+
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  height: 1152px;
+}
+.mgmt-text-container {
+  max-width: 1440px;
+  padding: 96px 140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mgmt-text-container h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.mgmt-text-container p {
+  color: #f2f4f7;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.brand-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.second-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.first-button {
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid #eaecf0;
+}
+.first-button a {
+  text-decoration: none;
+}
+.first-button span,
+.second-button span {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.second-button span {
+  font-weight: 600;
+}
+.mgmt-image-container{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 64px;
+}
+.bottom-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 64px;
+}
+.bottom-text-container p{
+    margin: 0;
+    color: #475467;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
