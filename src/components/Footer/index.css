@@ -42,6 +42,18 @@
   font-weight: 400;
   line-height: 24px;
   padding: 12px 14px;
+  
+}
+.input-news{
+  border-radius: 4px;
+  border: 1px solid #EAECF0;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  display: flex;
+  /* padding: 12px 14px; */
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
 }
 .main-news-footer-container .footer-news-subscribe input:focus,
 :focus-visible {

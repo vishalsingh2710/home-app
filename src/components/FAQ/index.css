@@ -1,0 +1,50 @@
+.accordian-main-section-new {
+    max-width: 1440px;
+    padding: 0 140px;
+  }
+  
+  .heading-container p {
+    color: #3696fb;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+  }
+  .heading-container h4 {
+    color: #101828;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 48px;
+  }
+  .accordian-main-section {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 64px;
+  }
+  .accordian-main-section .left-container {
+    width: 50%;
+  }
+  .accordian-main-section .right-container {
+    width: 50%;
+  }
+  .accordian-main-section .right-container .image-container {
+    max-width: 548px;
+  }
+  .button-svg-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .image-tag {
+    width: 100%;
+    height: auto;
+  }
+  
