@@ -192,47 +192,38 @@ const Footer = () => {
                   <li>
                     <a href="/">Admin Dashboard</a>
                   </li>
+                </ul>
+              </div>
+
+              <div className="links-container">
+                <h3>Quick Links</h3>
+                <ul>
                   <li>
-                    <a href="/">Contact</a>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="/">Blogs</a>
+                  </li>
+                  <li>
+                    <a href="/">Contact Us</a>
                   </li>
                 </ul>
               </div>
 
               <div className="links-container">
-                <h3>Company</h3>
+                <h3>Legal</h3>
                 <ul>
-                  <li>
-                    <a href="/">About</a>
-                  </li>
-                  <li>
-                    <a href="/">Careers</a>
-                  </li>
-                  <li>
-                    <a href="/">Press</a>
-                  </li>
-                  <li>
-                    <a href="/">Blog</a>
-                  </li>
-                  <li>
-                    <a href="/">Contact</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="links-container">
-                <h3>Resources</h3>
-                <ul>
-                  <li>
-                    <a href="/">Help Center</a>
-                  </li>
                   <li>
                     <a href="/">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="/">Terms of Service</a>
+                    <a href="/">Terms & Conditions</a>
                   </li>
                   <li>
-                    <a href="/">Security</a>
+                    <a href="/">Copy Right Policy</a>
                   </li>
                 </ul>
               </div>

@@ -7,6 +7,7 @@ import Resident from '../Resident';
 import Gatekeeper from '../Gatekeeper';
 import Admin from '../Admin';
 import Facility from '../Facility'
+import Discover from '../Discover'
 import SectionWithAccordionAndImage from '../FAQ';
 import Footer from '../Footer'
 
@@ -24,6 +25,7 @@ export default function Home () {
       <Gatekeeper/>
       <Facility/>
       <Admin/>
+      <Discover/>
       <SectionWithAccordionAndImage/>
       <Footer/>
     </div>
