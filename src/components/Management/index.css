@@ -1,6 +1,5 @@
 .mgmt-main-container {
   background-image: url("../assests/mgmt-image.png");
-
   position: relative;
   overflow: hidden;
   background-size: cover;
@@ -72,26 +71,26 @@
 .second-button span {
   font-weight: 600;
 }
-.mgmt-image-container{
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 64px;
+.mgmt-image-container {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 64px;
 }
-.bottom-text-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin-top: 64px;
+.bottom-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 64px;
 }
-.bottom-text-container p{
-    margin: 0;
-    color: #475467;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
+.bottom-text-container p {
+  margin: 0;
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }

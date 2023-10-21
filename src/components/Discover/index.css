@@ -1,18 +1,110 @@
-.icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  flex: 1 0 0;
+.discover-main-container {
+  background-image: url("../assests/bg-svg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1152px;
+  position: relative;
+  overflow: hidden;
 }
-
-.icon-image {
+.discover-main-container .discover-content-container,
+.discover-bottom-container {
+  max-width: 1440px;
+  padding: 80px 140px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 48px;
+  column-gap: 32px;
+}
+.title-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.subtext-text {
+  color: #d0d5dd;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.discover-text-content-container p {
+  color: #5cb6fe;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.discover-text-content-container h5 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+.discover-mgmt-image {
+  max-width: 370px;
+  max-height: 480px;
+}
+.image-tag-discover {
+  width: 100%;
+  height: auto;
+}
+.discover-bottom-container {
   display: flex;
-  width: 48px;
-  height: 48px;
-  padding: 12px;
-  justify-content: center;
   align-items: center;
-  border-radius: 8px;
-  background: #eff8ff;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.bottom-all-text h4 {
+  color: #101828;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  margin: 0;
+}
+.bottom-all-text p {
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+.bottom-all-text a {
+  text-decoration: none;
+}
+.bottom-all-text .btn {
+  border-radius: 4px;
+  background: #1570ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }

@@ -4,6 +4,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="logo">
+      <a href="/">
         <div className="first-logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -152,6 +153,7 @@ export default function Header() {
             </g>
           </svg>
         </div>
+        </a>
       </div>
       <div className="menu">
         <ul className="nav-menu">

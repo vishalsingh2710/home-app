@@ -33,6 +33,7 @@
 .main-news-footer-container .footer-news-subscribe input {
   min-width: 406px;
   min-height: 46px;
+  padding: 0 14px;
 }
 .main-news-footer-container .footer-news-subscribe input::placeholder {
   color: #98a2b3;
@@ -41,8 +42,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  padding: 12px 14px;
-  
+  padding: 0px 14px;
 }
 .input-news{
   border-radius: 4px;
