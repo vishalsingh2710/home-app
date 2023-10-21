@@ -177,7 +177,9 @@ export default function Header() {
           <li className="nav-menu-item">Blogs</li>
           <li className="nav-menu-item">Contact Us</li>
           <button type="button" className="request-demo-btn">
-            <a href=""><span>Request Demo</span></a>
+            <a href="/">
+              <span>Request Demo</span>
+            </a>
           </button>
         </ul>
       </div>
