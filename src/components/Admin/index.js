@@ -1,27 +1,25 @@
 import React from "react";
 import "./index.css";
-import MyImage from "../assests/resident-image.png";
+import MyImage from "../assests/admin-image.png";
 
-const Resident = () => {
+const Admin = () => {
   return (
-    <div className="resident-main-container">
+    <div className="admin-main-container">
       <div className="left-image-container">
         <div className="left-image">
           <img src={MyImage} className="image-tag" alt="{My Image}" />
         </div>
       </div>
       <div className="right-text-container">
-        <p className="title">RESIDENT</p>
-        <h4>Discover the Power of Convenience</h4>
+        <p className="title">ADMIN DASHBOARD</p>
+        <h4>Data-Driven Decisions Made Simple</h4>
         <p className="subtitle">
-          Our Resident Module empowers residents to take control of their living
-          experience. From paying rent and utility bills to requesting
-          maintenance services, everything is just a tap away. Stay up-to-date
-          with community announcements and effortlessly communicate with your
-          neighbors. <br />
-          <br />
-          Join thousands of happy residents who already enjoy the benefits of
-          our app.
+          For administrators, our Admin Dashboard Module provides comprehensive
+          data analytics and insights. Monitor activities, track trends, and
+          manage the entire apartment complex efficiently. Make well-informed
+          decisions to ensure a thriving community. 
+          <br /><br/>
+          Discover the power of data with our intuitive admin dashboard.
         </p>
         <span>
           <a href="/">
@@ -47,4 +45,4 @@ const Resident = () => {
   );
 };
 
-export default Resident;
+export default Admin;

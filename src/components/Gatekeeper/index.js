@@ -1,27 +1,24 @@
 import React from "react";
 import "./index.css";
-import MyImage from "../assests/resident-image.png";
+import MyImage from "../assests/gatekeeper-image.png";
 
-const Resident = () => {
+const Gatekeeper = () => {
   return (
-    <div className="resident-main-container">
+    <div className="gatekeeper-main-container">
       <div className="left-image-container">
         <div className="left-image">
           <img src={MyImage} className="image-tag" alt="{My Image}" />
         </div>
       </div>
       <div className="right-text-container">
-        <p className="title">RESIDENT</p>
-        <h4>Discover the Power of Convenience</h4>
+        <p className="title">GATEKEEPER</p>
+        <h4>Enhanced Security and Effortless Entry</h4>
         <p className="subtitle">
-          Our Resident Module empowers residents to take control of their living
-          experience. From paying rent and utility bills to requesting
-          maintenance services, everything is just a tap away. Stay up-to-date
-          with community announcements and effortlessly communicate with your
-          neighbors. <br />
-          <br />
-          Join thousands of happy residents who already enjoy the benefits of
-          our app.
+          Our Gatekeeper Module revolutionizes visitor management. Gatekeepers
+          can efficiently manage visitor access, track deliveries, and maintain
+          communication with residents. Say goodbye to long queues and
+          time-consuming paperwork. <br /><br/>
+          Experience a new level of security and convenience with our app.
         </p>
         <span>
           <a href="/">
@@ -47,4 +44,4 @@ const Resident = () => {
   );
 };
 
-export default Resident;
+export default Gatekeeper;
